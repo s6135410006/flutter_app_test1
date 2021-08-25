@@ -5,7 +5,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstUI(), //เรียกจอน้ะจ้ะ
+      home: SecondUI(), //เรียกจอน้ะจ้ะ
     ),
   );
 }
