@@ -6,13 +6,13 @@ class ThirdBUI extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.green.shade50,
-        body: Center(
+      backgroundColor: Colors.amberAccent[200],
+      body: Center(
           child: Icon(
-            Icons.home,
-            size: 150.0,
-            color: Colors.white,
-          ),
-        ));
+        Icons.phone_android,
+        size: 150.0,
+        color: Colors.yellow,
+      )),
+    );
   }
 }

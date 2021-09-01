@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'third_a_ui.dart';
+import 'third_b_ui.dart';
+import 'third_c_ui.dart';
+import 'third_d_ui.dart';
+
 class ThirdUI extends StatefulWidget {
   const ThirdUI({Key? key}) : super(key: key);
 
@@ -8,14 +13,19 @@ class ThirdUI extends StatefulWidget {
 }
 
 class _ThirdUIState extends State<ThirdUI> {
-  List page = [];
+  List page = [
+    ThirdAUI(),
+    ThirdBUI(),
+    ThirdCUI(),
+    ThirdDUI(),
+  ];
   int _currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.purple[400],
         title: Text(
           'ThirdUI',
         ),
@@ -35,23 +45,23 @@ class _ThirdUIState extends State<ThirdUI> {
             icon: Icon(
               Icons.home,
             ),
-            label: 'Page A',
+            label: "Page A",
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              Icons.lock_clock,
             ),
-            label: 'Page B',
+            label: "Page B",
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              Icons.settings,
             ),
-            label: 'Page C',
+            label: "Page C",
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              Icons.mobile_friendly,
             ),
             label: 'Page D',
           ),

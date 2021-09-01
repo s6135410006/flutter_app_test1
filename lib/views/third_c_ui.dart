@@ -6,13 +6,14 @@ class ThirdCUI extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.green.shade50,
-        body: Center(
-          child: Icon(
-            Icons.home,
-            size: 150.0,
-            color: Colors.white,
-          ),
-        ));
+      backgroundColor: Colors.purpleAccent[400],
+      body: Center(
+        child: Icon(
+          Icons.monochrome_photos,
+          size: 150.0,
+          color: Colors.yellow,
+        ),
+      ),
+    );
   }
 }
