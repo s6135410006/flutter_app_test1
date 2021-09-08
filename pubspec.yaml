@@ -66,6 +66,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
+  fonts:
+   - family: Kanit
+     fonts:
+        - asset: assets/fonts/Kait-Bold.ttf
+        - asset: assets/fonts/Kait-Regular.ttf 
+        - asset: assets/fonts/Kait-Italic.ttf
+          style: italic
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
