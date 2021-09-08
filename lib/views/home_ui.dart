@@ -118,8 +118,8 @@ class _HomeUIState extends State<HomeUI> {
                   250.0,
                   80.0,
                 ),
-                shape: RoundRangeSliderThumbShape(
-                  BorderRadius: BorderRadius.circular(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(
                     50.0,
                   ),
                 ),
